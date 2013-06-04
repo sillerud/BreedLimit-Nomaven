@@ -18,7 +18,7 @@ public class BreedLimiterPlugin extends JavaPlugin {
     public void onEnable() {
         mobinfo.put(EntityType.COW, Material.WHEAT);
         mobinfo.put(EntityType.SHEEP, Material.WHEAT);
-        mobinfo.put(EntityType.PIG, Material.CARROT);
+        mobinfo.put(EntityType.PIG, Material.CARROT_ITEM);
         mobinfo.put(EntityType.CHICKEN, Material.SEEDS);
         
         super.onEnable();
